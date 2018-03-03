@@ -1,6 +1,4 @@
-[Indoor Agriculture Project](https://docs.google.com/document/d/1ArcZqPgIa82AwvjWtvZ9FeCffs26SfxBspnVomPGeAw/edit#) Electronics Plan
-
-Everything is based around the Raspberry Pi, turning on the pumps, turning on the lights, turning on the solenoids is all handled by the Pi’s GPIO. Even the flow meter. Maybe some kind of header board to then talk to the rest of the peripherals. Even all control algos. Everything SMART happens on the pi all in python.
+[Indoor Agriculture Project](https://docs.google.com/document/d/1ArcZqPgIa82AwvjWtvZ9FeCffs26SfxBspnVomPGeAw/edit#)
 
 ## Sensorboard
 
@@ -287,56 +285,3 @@ Should be able to detect following variables (sensors are linked as hyperlinks):
 * [CO2 Content](https://www.ebay.com/itm/New-MH-Z19B-Infrared-Carbon-Dioxide-CO2-Monitor-Sensor-Module-UART-PWM-Output/302501791946?epid=5002546034&hash=item466e8308ca:g:nwoAAOSwH-dZ8ae~:sc:USPSFirstClass!02169!US!-1)
 
 * [Reservoir Water Turgidity](https://www.dfrobot.com/product-1394.html)
-
-## Relays
-
-All control is done through relays. 8 Channel Relay Module
-
-<table>
-  <tr>
-    <td>12VDC Relay Bank
-Relay Number
-Usage
-1
-Plant 1 Solenoid
-2
-Plant 2 Solenoid
-3
-Mister Solenoid
-4
-Immersion Heater
-5
-Reservoir Solenoid 
-6
-Plant 1 Heat Mat
-7
-Plant 2 Heat Mat
-8
-
-</td>
-    <td>120VAC Relay Bank
-Relay Number
-Usage
-9
-Grow Light 1
-10
-Grow Light 2
-11
-Grow Light 3
-12
-Grow Light 4
-13
-Grow Light 5
-14
-Grow Light 6
-15
-Heat Fan
-16
-
-</td>
-  </tr>
-</table>
-
-
-https://www.mouser.com/ProductDetail/Microtips-Technology/NMTC-S0802XRYHS-10?qs=sGAEpiMZZMt7dcPGmvnkBodJ4P%252bCTn9wzC1sPgoRj%2fY%3d
-
